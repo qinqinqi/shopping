@@ -1,0 +1,250 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 571052 */
+  src: url('https://at.alicdn.com/t/font_571052_5lid91mzhtkmlsor.eot');
+  src: url('https:///at.alicdn.com/t/font_571052_5lid91mzhtkmlsor.eot?#iefix') format('embedded-opentype'),
+  url('https:///at.alicdn.com/t/font_571052_5lid91mzhtkmlsor.woff') format('woff'),
+  url('https:///at.alicdn.com/t/font_571052_5lid91mzhtkmlsor.ttf') format('truetype'),
+  url('https:///at.alicdn.com/t/font_571052_5lid91mzhtkmlsor.svg#iconfont') format('svg');
+}
+
+/* 隐藏滚动条 */
+.top::-webkit-scrollbar,.content::-webkit-scrollbar{
+	display: none;
+}
+.top{
+	width: 100%;
+	height: 1.24rem;
+	background: #fff;
+	text-align: center;
+	font-size: 0.42rem;
+	line-height:  1.24rem;
+	/* 强制在同一行内显示所有文本，直到文本结束或者遭遇br对象*/
+	overflow: scroll;
+	white-space:nowrap;
+}
+.top a{
+	color: #444444;	
+	padding-left: .73rem;
+	font-weight: bold;
+}
+#now_top{
+	color: red;
+}
+.top a:hover{
+	color: red;
+}
+.buttom{
+	position: fixed;
+	width: 100%;
+	height: 1.47rem;
+	background: #fff;
+	border-top: .01rem solid #e0e0e0;
+	bottom: 0;
+}
+.item{
+	position: relative;
+	width: 2.7rem;
+	height: 1.47rem;
+	float: left;
+	padding-left: .73rem;
+}
+.item span{
+	position: absolute;
+	font-family: 'iconfont';
+	font-size:  .64rem;
+	top: .15rem;
+}
+.item p{
+	position: absolute;
+	font-size: .12rem;
+	bottom: .15rem;
+}
+.item:hover{
+	color: red;
+}
+.item1{
+	color: red;
+}
+.content{
+    position: absolute;
+  	left: 0;
+  	top: 1.24rem;
+  	right: 0;
+ 	bottom: 1.47rem;
+ 	background: #f2f2f2;
+ 	overflow: scroll;
+}
+.content img{
+	height: 4.06rem;
+	position: relative;
+}
+.circle{
+    position: absolute;
+	top: 120px;
+	right:10px;
+	margin-right: .37rem;
+	/* width: 4.4rem; */
+	height: .18rem;
+	/* background: green; */
+}
+.circle1{
+	float: left;
+	width: .18rem;
+	height: .18rem;
+	background-color: #fff;
+	border-radius: 50%;
+	margin-left: .185rem;
+}
+.circle2{
+	background-color: red;
+}
+.fuli{
+	height: 4.58rem;
+	background-color:#fff;
+}
+.fuli1{
+	width: 20%;
+	float: left;
+	padding-top: .2rem;
+	padding-left: .2rem;
+}
+.fuli1 img{
+	width: 1.43rem;
+	height: 1.29rem;
+}
+.fuli1 p{
+	font-size: 12px;
+}
+.image_put{
+	height: 3.16rem;
+	margin-top: .24rem;
+}
+.pin{
+	height: 8.11rem;
+	background: #fff;
+	margin-top: .24rem;
+}
+.pin_top{
+	display: flex;
+	height: 5.37rem;
+	align-items: center;
+	justify-content:center;
+	/* background: aliceblue; */
+}
+.pin_top img{
+	width: 100%;
+	height: 5rem;	
+}
+.pin_bottom{
+	width: 10.24rem;
+	height: 2.74rem;
+	margin: 0 auto;
+	/* background: pink; */
+}
+.pin_bottom p{
+	font-weight: bold;
+	font-size: .43rem;
+}
+.pin_bottom_left{
+	float: left;
+	color: #9c9e9c;
+	font-size: .36rem;
+	margin-top: .45rem;
+}
+.pin_bottom_left i{
+	color: #e72c21;
+	font-weight: bold;
+	font-size: .42rem;
+}
+.pin_bottom_right{
+	float: right;
+	width: 3.06rem;
+	height: .99rem;
+	line-height: .99rem;
+	text-align: center;
+	background:#e72c21;
+	border-radius: .2rem; 
+	color: #fff;
+	font-size: .46rem;
+	margin-top: .22rem;
+}
+.jingxuan{
+	overflow: hidden;
+}
+.jingxuan_top{
+	width: 100%;
+	height: 1.5rem;
+	background: #fff;
+	margin-top: .22rem;
+	color: #ff005a;
+	line-height: 1.5rem;
+	text-align: center;
+	font-size: .38rem;
+}
+.jingxuan ul li{
+	float: left;
+	width: 5.35rem;
+	height: 7.89rem;
+	background: #fff;
+}
+.item1{
+	margin: 0 .1rem .1rem 0;	
+}
+.item2{
+	margin: 0 0 .1rem 0;
+}
+.jingxuan ul li img{
+	width: 5.35rem;
+	height: 5.34rem;
+}
+.item1_bottom{
+	margin:.31rem auto;
+	width: 4.84rem;
+	height: 2.23rem;
+	/* background: lightyellow; */
+}
+.item1_bottom p{
+	float: left;
+	font-weight: bold;
+    font-size: .38rem;
+    color: #000;
+}
+.item1_bottom2{
+	position: relative;
+	height: .78rem;
+	line-height: .78rem;
+}
+.item1_bottom2 p{
+	float: left;
+	font-weight: bold;
+    font-size: .34rem;
+    color: #e72c21;
+}
+.item1_bottom2 span{
+	float: left;
+	font-size: .32rem;
+    color: #9c9e9c;
+}
+.yuan{
+	position: absolute;
+	bottom: -.9rem;
+	right: 0;
+	float: left;
+	width: .78rem;
+	height: .78rem;
+	border: .03rem solid #e7e3e7;
+	border-radius: 50%;
+	background: red;
+}
+.yuan2{
+	margin-right: .4rem;
+	background: yellow;
+}
+.none{
+	width: 100%;
+	height: 1.48rem;
+	text-align: center;
+	font-size: .38rem;
+	color: #707070;
+	line-height:1.48rem; 
+}
