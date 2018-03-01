@@ -40,6 +40,7 @@
 	background: #fff;
 	border-top: .01rem solid #e0e0e0;
 	bottom: 0;
+	display: flex;
 }
 .item{
 	position: relative;
