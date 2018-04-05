@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 582273 */
+  src: url('https://at.alicdn.com/t/font_582273_a10gw96njbqk6gvi.eot');
+  src: url('https://at.alicdn.com/t/font_582273_a10gw96njbqk6gvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_582273_a10gw96njbqk6gvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_582273_a10gw96njbqk6gvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_582273_a10gw96njbqk6gvi.svg#iconfont') format('svg');
+}
+.clear{
+	clear:both;
+}
+.bottom{
+	position:fixed;
+	bottom:0;
+	width:10.8rem;
+	height:1.62rem;
+}
+.bottom_icon{
+	width:4.18rem;
+	height:1.62rem;
+	background:#fff;
+	border-top:.02rem solid #f7f3f7 ;
+	float: left;
+}
+.bottom_icon1{
+	width:1.38rem;
+	height:100%;
+	margin:.3rem auto;
+	float:left; 
+}
+.bottom_icon1 p{
+	font-family: 'iconfont';
+	font-size:.54rem;
+	color:#9c9e9c;
+	font-weight:bold;
+	text-align:center;
+}
+.bottom_icon2 p{
+	color:#e72c21;
+}
+.bottom_icon1 span{
+	font-size:.3rem;
+	color:#5a595a;
+	display: block;
+	text-align:center;
+}
+.bottom_price{
+	width:2.94rem;
+	height:1.62rem;
+	background:#f7aaab;
+	float:left; 
+	color:#fff;
+}
+.bottom_price h1{
+	font-size:.38rem;
+	text-align:center;
+	padding-top:.3rem;
+}
+.bottom_price h2{
+	font-size:.46rem;
+	text-align:center;
+}
+.bottom_price2{
+	width:3.68rem;
+	height:1.62rem;
+	background:#e72c21;
+	float:left; 
+}
+.contior{
+	position: absolute;
+  	left: 0;
+  	top: 0;
+  	right: 0;
+  	bottom:1.62rem;
+  	background:#f7f3f7;
+}

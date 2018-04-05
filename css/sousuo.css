@@ -7,7 +7,8 @@
   url('https://at.alicdn.com/t/font_571052_63c9t3z0y9khjjor.svg#iconfont') format('svg');
 }
 
-.sousuo_fenlei::-webkit-scrollbar{
+.sousuo_fenlei::-webkit-scrollbar,
+.sousuo_content::-webkit-scrollbar{
 	display: none;
 }
 .sousuo{

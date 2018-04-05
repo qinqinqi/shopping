@@ -1,0 +1,94 @@
+body{
+	background:#f2f2f2; 
+}
+.char_title{
+	width:100%;
+	height:1.24rem;
+	background:#fff;
+	text-align:center;
+	line-height:1.15rem;
+	color:#000;
+	font-size:.38rem;
+	font-weight:bold;
+}
+.char_tongzhi{
+	width:100%;
+	height:1.12rem;
+	background:#ededed; 
+}
+.char_tongzhi p{
+	color:#000;
+	font-size:.38rem;
+	line-height:1.12rem;
+	margin-left:.42rem; 
+	float:left;
+}
+.char_tongzhi a{
+	color: red;
+	font-size:.4rem;
+	float: left;
+	line-height:1.12rem;
+	font-weight:bold;
+	margin-left:.52rem;
+	float: left;
+}
+.char_tongzhi h1{
+	font-size:.3rem;
+	color:#d2d2d2;
+	margin:.29rem .47rem;
+	float: left;
+}
+.char_tongzhi h2{
+	font-size:.32rem;
+	font-weight:bold;
+	color:#9d9d9d;
+	float: left;
+	margin-top:.29rem;
+}
+.char_content{
+	width:100%;
+	height:auto;
+	background:#fff; 
+}
+.char_content ul li{
+	width:10.1rem;
+	height:2.22rem;
+	border-bottom:.02rem solid #e5e5e5;
+}
+.char_img{
+	width:1.44rem;
+	height:1.44rem;
+	border-radius:50%;
+	background:url('../img/rw2.png');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	margin-top:.39rem;
+	margin-left:.39rem;
+	float: left;  
+}
+.char_wenzi{
+	position: relative;
+	width:8.15rem;
+	height:1.03rem;
+	top:.59rem;
+	left:2.36rem;
+	/* background:pink;    */
+}
+.char_wenzi h1{
+	position: absolute;
+	left: 0;
+	font-size:.4rem;
+}
+.char_wenzi h2{
+	position: absolute;
+	right: 0;
+	font-size:.28rem;
+	color: #9c9c9c;
+}
+.char_content ul li p{
+	position: absolute;
+	color: #9c9c9c;
+	font-size:.28rem;
+	top:.58rem;
+	left:0;
+}
