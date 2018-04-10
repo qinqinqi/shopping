@@ -4,13 +4,197 @@
 	<meta charset="UTF-8">
 	<title>购物</title>
 	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+	<link rel="stylesheet" href="css/swiper.css">
 	<link rel="stylesheet" href="css/shopping.css">
 	<link rel="stylesheet" href="css/public.css">
-	<script src="js/rem.js"></script>
 	<link rel="icon" href="img/logo.ico" type="image/x-icon">
 </head>
 <body>
-	<main class="contior"></main>
+	<main class="contior">
+		<!--banner部分-->
+		<div class="swiper-container">
+			<!--轮播图-->
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/shopping/banner1.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/shopping/banner2.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/shopping/banner3.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/shopping/banner4.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/shopping/banner5.jpg" alt=""></div>
+			</div>
+			<a href="#" onClick="javascript:history.back(-1);">
+				<span style="left:.3rem">&#xe614;</span>
+			</a>
+			<span style="right:.3rem">&#xe62c;</span>
+			<div class="shopping_pin">
+				<img src="./img/shopping/touxiang.jpg" alt="">
+				毛毛虫正在拼单
+				<a href="" style="color:blue">点击参与</a>
+			</div>
+			<div class="shuzi"><i>1</i>/<i>6</i></div>
+		</div>
+		<!--价钱部分开始-->
+		<div class="price">
+			<div class="p_content">
+				<div class="p_content_head">
+					<h3>￥9.9</h3>
+					<i>￥88</i>
+					<p>已拼15446256484件·2人拼单</p>
+					<div class="clear"></div>
+					<h5>【300万人见证好品质】遇水开花 晴雨伞两用太阳伞遮阳防晒紫外线超轻小三折叠伞大号男女小清新</h5>
+				</div>
+			</div>
+			<!--满减部分开始-->
+			<div class="manjian">
+				<p>
+					<i>&#xe681;</i>
+					满24减两元
+				</p>
+				<p>
+					<i>&#xe681;</i>
+					满45减两元
+				</p>
+				<em class="right">&#xe612;</em>
+			</div>
+			<div class="clear"></div>
+			<div class="manjian">
+				<p><i>&#xe770;</i>全场包邮</p>
+				<p><i>&#xe770;</i>7天退还</p>
+				<p><i>&#xe770;</i>48小时发货</p>
+				<p><i>&#xe770;</i>假一赔十</p>
+				<em class="right">&#xe612;</em>
+			</div>
+			<!--满减部分结束-->
+		</div>
+		<!--价钱部分结束-->
+		<!--拼单开始-->
+		<div class="list">
+			<ul>
+				<li style="height:1.19rem;line-height:1.19rem;">
+					<h5>230人在拼单</h5>
+					<span>查看更多
+						<em class="right">&#xe612;</em>
+					</span>
+				</li>
+				<li>
+					<img src="img/shopping/touxiang4.jpg" alt="">
+					<b>平枝</b>
+					<div class="pin_statu">
+						<div class="pin_statu1">
+							<h6>还差<i style="color:red">1人</i>拼成</h6>
+							<p>剩余23：54：19.5</p>
+						</div>
+						<div class="pin_statu2">
+							去拼单
+						</div>
+					</div>
+				</li>
+				<li>
+					<img src="img/shopping/touxiang.jpg" alt="">
+					<b>平枝</b>
+					<div class="pin_statu">
+						<div class="pin_statu1">
+							<h6>还差<i style="color:red">1人</i>拼成</h6>
+							<p>剩余23：54：30</p>
+						</div>
+						<div class="pin_statu2">
+							去拼单
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--拼单结束-->
+		<!--评价部分开始-->
+		<div class="evaluation">
+			<ul>
+				<li style="height:1.2rem;line-height:1.2rem">
+					<h5>商品评价</h5>
+					<span>查看全部
+						<em class="right">&#xe612;</em>
+					</span>
+				</li>
+				<li>
+					<div class="evaluation_type">
+						<p>质量很好（13423）</p>
+						<p>便宜（6666）</p>
+						<p>质量不错（1245）</p>
+					</div>
+					<div class="evaluation_who">
+						<img src="img/shopping/touxiang1.jpg" alt="">
+						<div class="who_name">关爱</div>
+						<div class="who_time">2018.04.08</div>
+					</div>
+					<div class="pingyu">货已收到，商品感觉很结实，满意，物美价廉.卖家发货速度很快，客服态度也很好，给老板点个赞，下次还会来买他家的东西。</div>
+					<div class="shangpin">型号—平边  颜色：蓝色—黑胶防晒</div>
+				</li>
+				<li>
+					<div class="evaluation_who">
+						<img src="img/shopping/touxiang2.jpg" alt="">
+						<div class="who_name">只要有你</div>
+						<div class="who_time">2018.04.08</div>
+					</div>
+					<div class="pingyu">卖家发货速度很快，客服态度也很好，给老板点个赞</div>
+					<div class="shangpin">型号—平边  颜色：蓝色—黑胶防晒</div>
+				</li>
+			</ul>
+		</div>
+		<!--评价部分结束-->
+		<!--会生活开始-->
+		<section class="life">
+			<div class="life_inner">
+				<img class="life_left" src="img/shopping/jt1.png"></img>
+				<div class="shop_star">
+					<p>会生活</p>
+					<span>商品数量：41   已拼471万件</span>
+				</div>
+				<img class="life_right" src="img/shopping/jt2.png" alt="">
+			</div>
+		</section>
+		<!--会生活结束-->
+		<!--店铺推荐开始-->
+		<div class="commend">
+			<div class="commend_inner">
+				<span>店铺推荐</span>
+				<ul>
+					<a href="shopping.html"><li>
+						<img src="img/shopping/banner1.jpg" alt="">
+						<p>【囤货季】【经典上午伞】全自动抵抗紫外线</p>
+						<div class="commend_price">
+							<i>￥12.5</i>
+							<em>已拼55万件</em>
+						</div>
+					</li></a>
+					<a href="shopping.html"><li>
+						<img src="img/shopping/banner3.jpg" alt="">
+						<p>【囤货季】新品雨伞小清新烫金羽最新款雨伞</p>
+						<div class="commend_price">
+							<i>￥16.5</i>
+							<em>已拼55万件</em>
+						</div>
+						</li></a>
+					<a href="shopping.html"><li>
+						<img src="img/shopping/banner4.jpg" alt="">
+						<p>【囤货季】黑胶防晒全自动抵抗紫外线</p>
+						<div class="commend_price">
+							<i>￥12.5</i>
+							<em>已拼120万件</em>
+						</div>
+							</li></a>
+				</ul>
+			</div>
+		</div>
+		<!--店铺推荐结束-->
+		<!--商品详情开始-->
+		<section class="detail">
+			<div class="detail_inner">
+				<span>商品详情</span>
+				<p>【雨季必备】遇水开花 晴雨全能，内层覆盖高性能黑胶防晒涂层（伞下可降温3-10度），能有效阻隔可见光，隔绝99%的紫外线，有效阻止UVA，防止晒伤，防止黑色素生成，伞面采用高密度聚水伞面，荷叶效果，有效阻止雨水渗透，并经过特殊工艺处理实现遇水开花，伞骨采用黑色钢琴烤漆，精品工艺，防止被雨水腐蚀导致生锈，8根伞骨坚固耐用，防夹手开关安全便捷，携带方便，常规款伞面全新升级，更大伞面，更多呵护，时尚百搭，多色可选。</p>
+			</div>
+		</section>
+		<!--商品详情结束-->
+		<div class="title">晴雨两用 遇水开花 三折伞</div>
+		<img src="img/shopping/jt3.png" alt="" class="end">
+	</main>
 	<div class="bottom">
 		<div class="bottom_icon">
 			<div class="bottom_icon1">
@@ -35,5 +219,17 @@
 			<h2>发起拼单</h2>
 		</div>
 	</div>
+	<script src="js/swiper.js"></script>
+	<script src="js/rem.js"></script>
+	//初始化swiper
+	<script>
+        var mySwiper = new Swiper ('.swiper-container', {
+            direction: 'horizontal',
+            loop: true,
+            // 自动轮播
+            // autoplay: true
+        });
+
+	</script>
 </body>
 </html>

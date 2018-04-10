@@ -18,3 +18,31 @@ img{
 a{
 	color:#000;
 }
+
+@font-face {
+	font-family: 'iconfont';  /* project id 582273 */
+	src: url('https://at.alicdn.com/t/font_582273_xibqeubbmf17nwmi.eot');
+	src: url('https://at.alicdn.com/t/font_582273_xibqeubbmf17nwmi.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_582273_xibqeubbmf17nwmi.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_582273_xibqeubbmf17nwmi.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_582273_xibqeubbmf17nwmi.svg#iconfont') format('svg');
+}
+
+/*购物车*/
+.buycar{
+	font-family: 'iconfont';
+	width:1rem;
+	height:1rem;
+	border-radius:50%;
+	border:.02rem solid #9c9e9c;
+	position: fixed;
+	right:1rem;
+	bottom:3rem;
+	z-index:199;
+	color:#9c9e9c;
+	line-height: 1rem;
+	text-align: center;
+	opacity: .5;
+	font-size: .7rem;
+	background: #fff;
+}
